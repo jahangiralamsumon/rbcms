@@ -1,0 +1,9 @@
+2016-08-09 09:30:46 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Cake" could not be found.
+Stack Trace:
+#0 D:\htdocs\CMS\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(214): Cake\Console\ShellDispatcher->findShell('cake')
+#1 D:\htdocs\CMS\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 D:\htdocs\CMS\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 D:\htdocs\CMS\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+

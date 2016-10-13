@@ -1,0 +1,165 @@
+2016-08-09 09:36:21 Debug: duration=1 rows=15 SHOW TABLES FROM `cms`
+2016-08-09 09:37:54 Debug: duration=1 rows=15 SHOW TABLES FROM `cms`
+2016-08-09 09:37:54 Debug: duration=141 rows=9 SHOW FULL COLUMNS FROM `message`
+2016-08-09 09:37:54 Debug: duration=1 rows=1 SHOW INDEXES FROM `message`
+2016-08-09 09:37:54 Debug: duration=319 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'message' AND rc.TABLE_NAME = 'message'
+2016-08-09 09:37:54 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'message'
+2016-08-09 09:37:54 Debug: duration=2 rows=3 SHOW FULL COLUMNS FROM `cmsuser_usergroups`
+2016-08-09 09:37:54 Debug: duration=1 rows=1 SHOW INDEXES FROM `cmsuser_usergroups`
+2016-08-09 09:37:56 Debug: duration=1108 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'cmsuser_usergroups' AND rc.TABLE_NAME = 'cmsuser_usergroups'
+2016-08-09 09:37:56 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'cmsuser_usergroups'
+2016-08-09 09:37:56 Debug: duration=5 rows=13 SHOW FULL COLUMNS FROM `cmsusers`
+2016-08-09 09:37:56 Debug: duration=1 rows=1 SHOW INDEXES FROM `cmsusers`
+2016-08-09 09:37:56 Debug: duration=782 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'cmsusers' AND rc.TABLE_NAME = 'cmsusers'
+2016-08-09 09:37:56 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'cmsusers'
+2016-08-09 09:37:56 Debug: duration=5 rows=25 SHOW FULL COLUMNS FROM `companies`
+2016-08-09 09:37:56 Debug: duration=1 rows=1 SHOW INDEXES FROM `companies`
+2016-08-09 09:37:57 Debug: duration=891 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'companies' AND rc.TABLE_NAME = 'companies'
+2016-08-09 09:37:57 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'companies'
+2016-08-09 09:37:57 Debug: duration=4 rows=3 SHOW FULL COLUMNS FROM `countries`
+2016-08-09 09:37:57 Debug: duration=1 rows=1 SHOW INDEXES FROM `countries`
+2016-08-09 09:37:57 Debug: duration=161 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'countries' AND rc.TABLE_NAME = 'countries'
+2016-08-09 09:37:57 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'countries'
+2016-08-09 09:37:57 Debug: duration=4 rows=19 SHOW FULL COLUMNS FROM `groups`
+2016-08-09 09:37:57 Debug: duration=1 rows=1 SHOW INDEXES FROM `groups`
+2016-08-09 09:37:58 Debug: duration=637 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'groups' AND rc.TABLE_NAME = 'groups'
+2016-08-09 09:37:58 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'groups'
+2016-08-09 09:37:58 Debug: duration=3 rows=6 SHOW FULL COLUMNS FROM `modules`
+2016-08-09 09:37:58 Debug: duration=1 rows=1 SHOW INDEXES FROM `modules`
+2016-08-09 09:37:59 Debug: duration=459 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'modules' AND rc.TABLE_NAME = 'modules'
+2016-08-09 09:37:59 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'modules'
+2016-08-09 09:37:59 Debug: duration=4 rows=8 SHOW FULL COLUMNS FROM `pages`
+2016-08-09 09:37:59 Debug: duration=1 rows=1 SHOW INDEXES FROM `pages`
+2016-08-09 09:37:59 Debug: duration=495 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'pages' AND rc.TABLE_NAME = 'pages'
+2016-08-09 09:37:59 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'pages'
+2016-08-09 09:37:59 Debug: duration=3 rows=3 SHOW FULL COLUMNS FROM `role_pages`
+2016-08-09 09:37:59 Debug: duration=1 rows=1 SHOW INDEXES FROM `role_pages`
+2016-08-09 09:38:00 Debug: duration=489 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'role_pages' AND rc.TABLE_NAME = 'role_pages'
+2016-08-09 09:38:00 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'role_pages'
+2016-08-09 09:38:00 Debug: duration=4 rows=6 SHOW FULL COLUMNS FROM `roles`
+2016-08-09 09:38:00 Debug: duration=1 rows=1 SHOW INDEXES FROM `roles`
+2016-08-09 09:38:00 Debug: duration=329 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'roles' AND rc.TABLE_NAME = 'roles'
+2016-08-09 09:38:00 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'roles'
+2016-08-09 09:38:00 Debug: duration=4 rows=7 SHOW FULL COLUMNS FROM `settings`
+2016-08-09 09:38:00 Debug: duration=1 rows=1 SHOW INDEXES FROM `settings`
+2016-08-09 09:38:01 Debug: duration=1160 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'settings' AND rc.TABLE_NAME = 'settings'
+2016-08-09 09:38:01 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'settings'
+2016-08-09 09:38:01 Debug: duration=4 rows=8 SHOW FULL COLUMNS FROM `sub_modules`
+2016-08-09 09:38:01 Debug: duration=1 rows=1 SHOW INDEXES FROM `sub_modules`
+2016-08-09 09:38:02 Debug: duration=485 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'sub_modules' AND rc.TABLE_NAME = 'sub_modules'
+2016-08-09 09:38:02 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'sub_modules'
+2016-08-09 09:38:02 Debug: duration=4 rows=5 SHOW FULL COLUMNS FROM `timezones`
+2016-08-09 09:38:02 Debug: duration=0 rows=1 SHOW INDEXES FROM `timezones`
+2016-08-09 09:38:02 Debug: duration=353 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'timezones' AND rc.TABLE_NAME = 'timezones'
+2016-08-09 09:38:02 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'timezones'
+2016-08-09 09:38:02 Debug: duration=4 rows=3 SHOW FULL COLUMNS FROM `usergroup_roles`
+2016-08-09 09:38:02 Debug: duration=1 rows=1 SHOW INDEXES FROM `usergroup_roles`
+2016-08-09 09:38:03 Debug: duration=448 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'usergroup_roles' AND rc.TABLE_NAME = 'usergroup_roles'
+2016-08-09 09:38:03 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'usergroup_roles'
+2016-08-09 09:38:03 Debug: duration=4 rows=6 SHOW FULL COLUMNS FROM `usergroups`
+2016-08-09 09:38:03 Debug: duration=1 rows=1 SHOW INDEXES FROM `usergroups`
+2016-08-09 09:38:03 Debug: duration=518 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'usergroups' AND rc.TABLE_NAME = 'usergroups'
+2016-08-09 09:38:03 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'usergroups'
+2016-08-09 09:38:03 Debug: duration=4 rows=0 SHOW FULL COLUMNS FROM `msgs`
+2016-08-09 09:38:03 Debug: duration=4 rows=0 SHOW FULL COLUMNS FROM `users`
+2016-08-09 09:38:03 Debug: duration=4 rows=0 SHOW FULL COLUMNS FROM `senders`
+2016-08-09 09:38:04 Debug: duration=42 rows=9 SHOW FULL COLUMNS FROM `message`
+2016-08-09 09:38:04 Debug: duration=1 rows=1 SHOW INDEXES FROM `message`
+2016-08-09 09:38:04 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cms' AND kcu.TABLE_NAME = 'message' AND rc.TABLE_NAME = 'message'
+2016-08-09 09:38:04 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'message'
